@@ -23,3 +23,25 @@ Uwzględnij następujące przypadki:
 
 Źródło:
 <https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/python>
+
+## WEEK3 TASK2
+
+Napisz program wczytujący ze standardowego wejścia dwie dodatnie liczby
+całkowite $n$ i $m$, i wypisujący w kolejnych wierszach na standardowym
+wyjściu wszystkie dodatnie wielokrotności $n$ mniejsze od $m$.
+
+## WEEK3 TASK3
+
+Napisz program, który znajduje wszystkie pary liczb całkowitych w
+zakresie od 1 do 100, których suma jest równa 100.
+
+## WEEK3 TASK4
+
+Napisz program, który znajduje wszystkie liczby doskonałe mniejsze od 10
+000 (liczby doskonałe to liczby, których suma dzielników jest równa
+liczbie samej).
+
+## WEEK3 TASK5
+
+Stworzyć program, który odwraca kolejność cyfr w liczbie (np. 12345 -\>
+54321). Ogranicz zadanie do liczb całkowitych dodatnich.
