@@ -1,0 +1,53 @@
+---
+title: "Zadania dodatkowe - Wizualizacja danych - Tydzień 6"
+lang: pl
+editor: visual
+format: gfm
+---
+
+## WEEK6 TASK1
+
+Poniższy kod funkcji powinien "coś" zwracać, ale nie zwraca. Popraw kod:
+
+```python
+def mystery():
+    results = {
+    'sanity': 'Hello'}
+    return
+    results
+```
+
+Kod do skopiowania: <https://gist.github.com/pjastr/10fe6515b991400d55090afa2d0c84f5>
+
+Źródło: <https://www.codewars.com/kata/514a7ac1a33775cbb500001e/python>.
+
+
+## WEEK6 TASK2
+
+Napraw funkcję, aby nie było nieskończonej pętli:
+
+```python
+def create_array(n):
+    res=[]
+    i=1
+    while i<=n: res+=[i]
+    return res
+    
+```
+
+Kod do skopiowania: <https://gist.github.com/pjastr/2e649194c44fd86461db54f713309138>
+
+Przykładowe wywołania funkcji:
+
+* dla 1 zwraca [1]
+* dla 2 zwraca [1,2]
+* dla 3 zwraca [1,2,3]
+* dla 4 zwraca [1,2,3,4]
+* dla 5 zwraca [1,2,3,4,5]
+* dla 6 zwraca [1,2,3,4,5,6]
+* dla 7 zwraca [1,2,3,4,5,6,7]
+* dla 8 zwraca [1,2,3,4,5,6,7,8]
+* dla 9 zwraca [1,2,3,4,5,6,7,8,9]
+* dla 10 zwraca [1,2,3,4,5,6,7,8,9,10]
+
+Źródło: <https://www.codewars.com/kata/55c28f7304e3eaebef0000da/>.
